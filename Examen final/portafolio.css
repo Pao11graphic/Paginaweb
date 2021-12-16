@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(img/f1.png);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: -10px;
+    width: 100%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.774);
+    box-shadow: 0px 0px 20px 5px black;
+    z-index: 10;
+}
+
+.barra{
+    display: flex;
+
+    width: 80%;
+    justify-content: space-between;
+}
+
+.barra h1{
+    margin: 20px;
+    font-size: 40px;
+    letter-spacing: 6px;
+    color: rgb(3, 89, 104);
+    margin-top: 10px;
+}
+
+.barra ul{
+    display: flex;
+    width: 50%;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.barra li{
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+/*INICIA LA PROGRAMACIÓN DE PORTAFOLIO*/
+.ilustracion  {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(6, 232, 240, 0.514);
+    width: 1300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 10px rgb(1, 88, 88);
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 110px;
+    color: rgb(3, 89, 104);
+}
+
+.ilustracion h1{
+    justify-content: center;
+    align-items: center;   
+}
+
+.ilustracion li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-block: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.ilustracion li:hover{
+    transform: scale(10px);
+    cursor: pointer;
+}
+
+/*SEGUNDO BLOQUE*/
+.branding  {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(6, 232, 240, 0.514);
+    width: 1300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 10px rgb(1, 88, 88);
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 110px;
+    color: rgb(3, 89, 104);
+}
+
+.branding h1{
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;  
+}
+
+.branding li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-block: 80px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+.branding li:hover{
+    transform: scale(10px);
+    cursor: pointer;
+}
+
+/*TERCER BLOQUE*/
+.poster  {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(6, 232, 240, 0.514);
+    width: 1300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 10px rgb(1, 88, 88);
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 110px;
+    color: rgb(3, 89, 104);
+}
+
+.poster h1{
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;  
+}
+
+.poster li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-block: 30px;
+    margin-left: 90px;
+    margin-right: 80px;
+  
+}
+
+.poster li:hover{
+    transform: scale(10px);
+    cursor: pointer;
+}
+
+/*CUARTO BLOQUE*/
+.editorial  {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(6, 232, 240, 0.514);
+    width: 1300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 10px rgb(1, 88, 88);
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 110px;
+    color: rgb(3, 89, 104);
+}
+
+.editorial h1{
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;  
+}
+
+.editorial li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-block: 30px;
+    margin-left: 90px;
+    margin-right: 80px;
+  
+}
+
+.editorial li:hover{
+    transform: scale(10px);
+    cursor: pointer;
+}
